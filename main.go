@@ -35,6 +35,13 @@ fmt.Println(b1.ISBN)
 fmt.Println(b1.Price)
 fmt.Println(b1.Pages)
 
+
+//Using custom datatypes
+
+var w1 Weight
+w1 = 30.30
+fmt.Println(w1, name)
+
 }
 
 
