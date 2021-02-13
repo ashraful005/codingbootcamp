@@ -35,6 +35,24 @@ fmt.Println(b1.ISBN)
 fmt.Println(b1.Price)
 fmt.Println(b1.Pages)
 
+//Method 02
+
+b2 := struct{
+ Title string
+ Author string
+ ISBN  string
+ Price float32
+ Pages int
+}{
+Title : "C Programming Basics",
+Author : "Tamim Shahriar Shubin",
+ISBN : "978-1478355823",
+Price : 9.50,
+Pages : 377,
+}
+
+fmt.Println(b2)
+
 }
 
 
