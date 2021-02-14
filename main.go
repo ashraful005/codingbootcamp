@@ -32,7 +32,7 @@ for i:=1; i<=9; i++{
 
 fmt.Print(i, " ")
 }
-*/
+
 
 students := []string{"Asgor", "Mainul", "Anonnya"}
 
@@ -40,7 +40,14 @@ for i, std := range students{
 
 fmt.Println(i, std)
 }
+*/
 
+i := 0
+
+for i<10{
+fmt.Println("hello")
+i++
+}
 
 
 }
