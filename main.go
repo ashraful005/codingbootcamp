@@ -5,7 +5,7 @@ import  (
 )
 
 func main(){
-
+/*
 fmt.Print("Enter your age: ")
 
 var age int
@@ -26,6 +26,13 @@ switch age{
 }
 
 fmt.Println(age)
+*/
+
+for i:=1; i<=9; i++{
+
+fmt.Print(i, " ")
+
+}
 
 
 }
