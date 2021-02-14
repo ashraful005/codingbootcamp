@@ -12,14 +12,17 @@ var age int
 
 fmt.Scanf("%d", &age)
 
-if age < 3{
- fmt.Println("Infant")
-}else if age>2 && age<13{
- fmt.Println("Children")
-}else if age>12 && age<=19{
- fmt.Println("Teenager")
-}else{
- fmt.Println("Adult")
+switch age{
+ case 1,2:
+       fmt.Print("Infant")
+ case 3,4,5,6,7,8,9,10,11,12:
+       fmt.Println("Children")
+fallthrough
+ case 13,14,15,16,17,18,19:
+       fmt.Println("Teenager")
+       fallthrough
+ default:
+       fmt.Println("Adult")
 }
 
 fmt.Println(age)
