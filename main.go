@@ -26,13 +26,21 @@ switch age{
 }
 
 fmt.Println(age)
-*/
+
 
 for i:=1; i<=9; i++{
 
 fmt.Print(i, " ")
-
 }
+*/
+
+students := []string{"Asgor", "Mainul", "Anonnya"}
+
+for i, std := range students{
+
+fmt.Println(i, std)
+}
+
 
 
 }
